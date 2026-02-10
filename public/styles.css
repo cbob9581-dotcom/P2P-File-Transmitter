@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, "Segoe UI", Roboto, "PingFang SC", "Microsoft Yahei", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #111827;
+  color: #e5e7eb;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row > * {
+  min-width: 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #4b5563;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 12px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: #4b5563;
+}
+
+progress {
+  width: 100%;
+  height: 14px;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.success {
+  color: #86efac;
+}
+
+.danger {
+  color: #fca5a5;
+}

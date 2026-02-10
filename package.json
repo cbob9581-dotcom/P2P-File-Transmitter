@@ -1,0 +1,12 @@
+{
+  "name": "webrtc-p2p-file-transfer-lite",
+  "version": "1.0.0",
+  "description": "Lightweight browser P2P file transfer with React + WebRTC + WebSocket signaling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
